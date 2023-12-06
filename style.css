@@ -1,0 +1,57 @@
+
+
+th, td {
+  border: 1px solid;
+}
+
+h1{
+ text-align: center;
+background-color:lightblue;
+}
+
+h3{
+text-decoration: underline;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+tr:hover {background-color: coral;}
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+h2{
+border-style:groove;
+}
+h4{
+text-align:center;
+font-size:50px;
+ margin-top: 50px;
+}
+
+.a{
+  background-color: #FFFDD0;
+border-style: solid;
+ margin-top: 20px;
+}
+
+
+
+      .slideshow {
+            max-width: 100%;
+            position: relative;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .slide {
+            min-width: 100%;
+        }
+
